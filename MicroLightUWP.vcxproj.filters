@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>f7a498c1-c46b-4e72-979a-b21f9ed4e625</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>4dfae50a-0f85-4dc8-a695-570004a83b1c</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="BasicLoader.cpp" />
+    <ClCompile Include="BasicReaderWriter.cpp" />
+    <ClCompile Include="BasicShapes.cpp" />
+    <ClCompile Include="BasicTimer.cpp" />
+    <ClCompile Include="DDSTextureLoader.cpp" />
+    <ClCompile Include="DirectXApp.cpp" />
+    <ClCompile Include="DirectXBase.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="SampleOverlay.cpp" />
+    <ClCompile Include="Stereo3DMatrixHelper.cpp" />
+    <ClCompile Include="StereoSimpleD3D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="BasicLoader.h" />
+    <ClInclude Include="BasicMath.h" />
+    <ClInclude Include="BasicReaderWriter.h" />
+    <ClInclude Include="BasicShapes.h" />
+    <ClInclude Include="BasicTimer.h" />
+    <ClInclude Include="DDSTextureLoader.h" />
+    <ClInclude Include="DirectXApp.h" />
+    <ClInclude Include="DirectXBase.h" />
+    <ClInclude Include="DirectXSample.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="SampleOverlay.h" />
+    <ClInclude Include="Stereo3DMatrixHelper.h" />
+    <ClInclude Include="StereoSimpleD3D.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="smallTile-sdk.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="splash-sdk.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="squareTile-sdk.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="storeLogo-sdk.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="texture.dds" />
+    <Image Include="windowsbig-sdk.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="SimplePixelShader.hlsl" />
+    <FxCompile Include="SimpleVertexShader.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+</Project>
